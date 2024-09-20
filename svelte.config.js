@@ -1,5 +1,9 @@
-import adapter from '@sveltejs/adapter-auto';
-import preprocess from 'svelte-preprocess';
+// import adapter from '@sveltejs/adapter-auto';
+// import preprocess from 'svelte-preprocess';
+import adapter from 'amplify-adapter';
+import { prePreprocess } from '@sveltejs/vite-plugin-svelte';
+
+export default config;
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
